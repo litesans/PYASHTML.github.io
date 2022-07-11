@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PYAS防毒軟體</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/index.css"/>
+    </head>
+    <body style="height: 2900px;">
+        <script src="./index.js"></script>
+        <div class="header">
+            <nav class="menu">
+                <ul id="navigation_ul">
+                <div class="logo" onclick="location.href='./index.html';"><img src="./css/python.png"><span id="logotext"><b>PYAS</b></span></div> 
+                <li class="navigation"><a href="./index.html">主頁</a></li>
+                <li class="navigation"><a href="./html/download.html">下載</a></li>
+                <li class="navigation"><a href="./html/info.html">關於</a></li>
+                <li id="showmenu"><a href="#">選單</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="PYAS_title">
+            <h1>PYAS 免費防毒軟體</h1>
+        </div>
+
+        <div>
+            <p class="PYAS_text">輕巧、多功能、極少的系統需求且完全免費的防毒軟體</p>
+            <p class="PYAS_text" style="top:35%; font-size:20px;">PYAS 免費防毒軟體使用 Python 程式語言開發，包含超過 15 種免費功能<br>且不會拖慢您的電腦速度，也不造成干擾，並採用 PYAE V1.2.3 掃毒引擎。</p>
+            <a href="./html/download.html">
+            <button id="download_button">立即下載 →</button>
+            </a>
+        </div>
+
+        <div>
+            <h1 class="system_title" style="font-size:50px;">系統配置與權限需求</h1>
+            <p class="system_title" style="top:70%;">最低的系統配置與系統權限需求</p>
+            <div class="system_list">
+                <li class="system_logo"><img src="https://static.wixstatic.com/media/ce9710_55568427461c44a8baa75670731327a7~mv2.png/v1/crop/x_62,y_62,w_429,h_429/fill/w_178,h_179,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/windows-8-icon_edited.png">系統<br>Windows 7 以上</li>
+                <li class="ram_logo"><img src="https://static.wixstatic.com/media/ce9710_679425d4e8e042488f828299edc1b526~mv2.png/v1/fill/w_243,h_176,al_c,lg_1,q_85,enc_auto/%E4%B8%8B%E8%BC%89.png">記憶體<br>4 GB 以上</li>
+                <li class="hdd_logo"><img src="https://static.wixstatic.com/media/ce9710_e937c277ce964c1f9386e11f945c4816~mv2.png/v1/fill/w_176,h_176,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2084260_edited.png">佔用空間<br>1.25 GB</li>
+                <li class="uac_logo"><img src="https://static.wixstatic.com/media/ce9710_4746a0764efe4891873ddead51382f06~mv2.png/v1/fill/w_243,h_162,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Windows_Defender-Logo_edited.png">權限需求<br>管理員權限</li>
+            </div> 
+        </div>
+        <div>
+            <h1 class="PYAS_video" style="font-size: 50px;">PYAS 掃毒示範影片</h1>
+            <p class="PYAS_video" style="top:135%;">測試日期: 2022/07/10</p>
+            <iframe class="PYAS_video" style="top:163%;" width="560" height="315" src="https://www.youtube-nocookie.com/embed/kgEJAmdlm9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div>
+            <h1 class="announcement" style="font-size: 50px;">本次更新內容及公告</h1>
+            <p class="announcement" style="top:200%;">最新版本更新資訊及公告內容</p>
+            <p class="announcement" style="top:208%; font-size:20px;">PYAS V2.2 增加函式掃描來提高查殺率，並修復已知問題。</p>
+            <a href="https://github.com/87owo/PYAS"><button id="view_github">查看GitHub →</button></a>
+        </div>
+        <div>
+            <h1 id="feedback_title">意見回饋</h1>
+            <input id="nameText" type="text" name="name" value size="60" placeholder="姓名" required>
+            <input id="emailText" type="email" name="Email" value size="60" placeholder="電子郵箱" required>
+            <textarea id="messageText" name="message" cols="40" rows="10"  aria-required="true" aria-invalid="false" placeholder="我們可以如何改進?" required></textarea>
+            <input id="feedback_button" type="button" value="寄送" onclick="submitHandler();">
+            <a id="mailTo"></a>
+        </div>
+        
+        <p id="made"><u>©本網站由mtkiao129製作</u></p>
+    </body>
+</html>
