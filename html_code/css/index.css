@@ -98,7 +98,7 @@ nav{
     display:flex;
     font-size: 20px;
     text-align: center;
-    margin:5px;
+    margin:10px;
     list-style-type: none;
     position: absolute;
     left: 50%;
@@ -182,62 +182,6 @@ nav{
     left: 50%;
     top: 15%;  
     transform: translate(-50%,-50%); 
-}
-.about_PYAS_1{
-    color:rgb(255,255,255); 
-    position: absolute;
-    font-size: 20px;
-    left: 20%;
-    top: 40%;  
-    transform: translate(0%,-50%); 
-}
-.about_PYAS_2{
-    color:rgb(255,255,255); 
-    position: absolute;
-    font-size: 20px;
-    left: 20%;
-    top: 60%;  
-    transform: translate(0%,-50%); 
-}
-.about_PYAS_3{
-    color:rgb(255,255,255); 
-    position: absolute;
-    font-size: 20px;
-    left: 20%;
-    top: 80%;  
-    transform: translate(0%,-50%); 
-}
-.about_PYAS_4{
-    color:rgb(255,255,255); 
-    position: absolute;
-    font-size: 20px;
-    left: 20%;
-    top: 98%;  
-    transform: translate(0%,-50%); 
-}
-.about_PYAS_5{
-    color:rgb(255,255,255); 
-    position: absolute;
-    font-size: 20px;
-    left: 20%;
-    top: 118%;  
-    transform: translate(0%,-50%); 
-}
-.about_PYAS_6{
-    color:rgb(255,255,255); 
-    position: absolute;
-    font-size: 20px;
-    left: 20%;
-    top: 142%;  
-    transform: translate(0%,-50%); 
-}
-.about_PYAS_7{
-    color:rgb(255,255,255); 
-    position: absolute;
-    font-size: 20px;
-    left: 20%;
-    top: 175%;  
-    transform: translate(0%,-50%); 
 }
 
 #feedback_title{
@@ -343,6 +287,16 @@ nav{
 
 #feedback_button:hover{
     background-color: rgb(100,100,100);
+}
+
+.info_div{
+    display: block;
+    color:rgb(255,255,255); 
+    position: absolute;
+    font-size: 20px;
+    left: 20%;
+    top: 100%;  
+    transform: translate(0%,-50%); 
 }
 
 #showmenu {
